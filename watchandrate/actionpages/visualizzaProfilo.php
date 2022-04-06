@@ -1,5 +1,4 @@
 <?php
-    session_start();
     require_once('../include/DBHandler.php');
     require_once('../include/DBHandler.php');
     $res= Model::getInstance()->viewProfile(($_SESSION['idUtente']));

@@ -1,6 +1,4 @@
-  <?php
-    session_start();
-  ?>
+
   
   <body>
         <header style="background-color: #1e1e1e;">
@@ -11,13 +9,14 @@
           
         </header>
         <div class="container px-4 px-lg-5 my-5 bg-white" >
+        <p class="text-dark">Film recensiti:</p>
             <?php
-             
+             $res =Model::getInstance()->getFilm();
             
+            //$film= $res[0]['nomeFIlm'];
+            var_dump($res);
+            echo $res;
             ?>
         </div>
-        <!-- Section-->
-        
-        <!-- Footer-->
     </body>
 </html>

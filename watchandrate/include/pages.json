@@ -4,7 +4,8 @@
     "adminpages": [],
     "loginpages" : ["loginPage.php","registrationPage.php","loginFallito.php"],
     "dbPages" : ["model.php"],
-    "nomodel" : []
+    "nomodel" : [],
+    "logged" : ["recensionepage.php","viewProfile.php"]
 }
 
 

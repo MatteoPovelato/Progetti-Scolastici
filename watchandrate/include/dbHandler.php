@@ -14,11 +14,8 @@ class DBHandler {
     }
     
     private static function connect_database() {
-     /*   define('USER', 'root');
-        define('PASSWORD', '3ys+ybJLy8n?ugLq-js5d_rBFzawsvcLaQ8JGJudRqtqpkBj=s');
-        */
         define('USER', 'root');
-        define('PASSWORD', '');
+        define('PASSWORD', '3ys+ybJLy8n?ugLq-js5d_rBFzawsvcLaQ8JGJudRqtqpkBj=s');
         // Database connection
         try {
             $connection_string = 'mysql:host=localhost;dbname=dbrecensione;charset=utf8';

@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <link rel="stylesheet" href="../css/stileLink.css" type="text/css" media="all" />
 <div class="row">
 <div class="col-sm-4">

@@ -13,15 +13,15 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <nav class="navbar-nav" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active text-white" aria-current="page" href="homepage.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active text-white" aria-current="page" href="recensionepage.php">Pubblica una recensione</a></li>
+                        <li class="nav-item"><a class="nav-link active text-white" aria-current="page" href="../userpages/homepage.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active text-white" aria-current="page" href="../userpages/recensionepage.php">Pubblica una recensione</a></li>
                     </ul>
                          <form class="d-flex position-absolute" style="left:60.69%">
                         
                         <input type="text" class="form-control" placeholder="Cerca">
                         <button><img src="../immagini/lenteRicerca.png" width="30" height="30"></button>
                         <button class="btn btn-outline-white text-white" type="submit">
-                            <a class="text-white"  href="../actionpages/controlloLoggato.php" style="text-decoration: none;">
+                            <a class="text-white"  href="../userpages/viewProfile.php" style="text-decoration: none;">
                             Profilo
                             </a>
                         </button>

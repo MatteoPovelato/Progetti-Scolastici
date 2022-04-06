@@ -1,6 +1,4 @@
-<?php
-    session_start();
-  ?>
+
 <link rel="stylesheet" href="../css/stileStelline.css" type="text/css" media="all" />
 <div class="row">
 <div class="col-sm-4">
@@ -13,7 +11,7 @@
     <label for="nomeOpera" class="form-label">Nome opera:</label>
     <input type="text" class="form-control" id="nomeOpera" placeholder="Inserisci nome del film o serie TV" name="nomeOpera">
     <label for="recensione" class="form-label">Scrivi la tua recensione:</label>
-         <input type="text" class="form-control" id="recensione" placeholder="Scrivi la recensione (minimo 100 caratteri)" name="recensione" style="height:100px">
+    <input type="text" class="form-control" id="recensione" placeholder="Scrivi la recensione (minimo 100 caratteri)" name="recensione" style="height:100px">
 </div>
 
 <div class="rate">
