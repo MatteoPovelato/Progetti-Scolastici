@@ -1,0 +1,11 @@
+{
+    "name": "website pages",
+    "userpages": ["index.php","homepage.php", "recensionepage.php","viewProfile.php"],
+    "adminpages": [],
+    "loginpages" : ["loginPage.php","registrationPage.php","loginFallito.php"],
+    "dbPages" : ["model.php"],
+    "nomodel" : []
+}
+
+
+
